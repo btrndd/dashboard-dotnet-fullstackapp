@@ -9680,24 +9680,31 @@
     ]
   },
   "packageFolders": {
-    "/home/bruno/.nuget/packages/": {}
+    "C:\\Users\\bruno\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/bruno/lyncas/projeto-bruno/backend/backend.csproj",
+      "projectUniqueName": "C:\\Users\\bruno\\repos\\projeto-bruno\\backend\\backend.csproj",
       "projectName": "backend",
-      "projectPath": "/home/bruno/lyncas/projeto-bruno/backend/backend.csproj",
-      "packagesPath": "/home/bruno/.nuget/packages/",
-      "outputPath": "/home/bruno/lyncas/projeto-bruno/backend/obj/",
+      "projectPath": "C:\\Users\\bruno\\repos\\projeto-bruno\\backend\\backend.csproj",
+      "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bruno\\repos\\projeto-bruno\\backend\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/bruno/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -9761,7 +9768,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
