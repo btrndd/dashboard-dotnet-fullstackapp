@@ -1,11 +1,11 @@
 --QUERY PARA CRIAR O DB E TABELAS
 USE MASTER
 
-DROP DATABASE IF EXISTS ProjectLyncas;
+DROP DATABASE IF EXISTS ProjectDashboard;
 
-CREATE DATABASE ProjectLyncas;
+CREATE DATABASE ProjectDashboard;
 
-USE ProjectLyncas;
+USE ProjectDashboard;
 
 CREATE TABLE Users(
     Id INT IDENTITY(1,1) PRIMARY KEY,
@@ -53,10 +53,10 @@ ON ps.Id = au.UserId
 WHERE au.Status = 0;
 
 -- QUERY DE UPDATE NA TABELA
-UPDATE ProjectLyncas.dbo.Auths
+UPDATE ProjectDashboard.dbo.Auths
 SET Auths.Status = 0
 WHERE Auths.UserId = 2;
 
 -- QUERY DE DELETE NA TABELA
-DELETE FROM ProjectLyncas.dbo.Users
+DELETE FROM ProjectDashboard.dbo.Users
 WHERE pessoas.LastName = 'Trindade';
