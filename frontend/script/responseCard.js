@@ -4,6 +4,7 @@ export const responseCard = (response) => {
   const container = document.createElement('div');
   const text = document.createElement('p');
   text.textContent = response.message;
+  console.log(response);
   main.appendChild(container);
   container.appendChild(text);
   container.classList.add('request');

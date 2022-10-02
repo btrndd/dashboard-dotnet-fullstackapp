@@ -80,6 +80,14 @@ export const spaFunction = () => {
   checkAuth();
 }
 
+// window.onpopstate = () => {
+//   console.log(location.pathname);
+//   if (location.pathname === '/frontend/dashboard.html') {
+//     redirectToDash();
+//     console.log('aqui');
+//   }
+// }
+
 spaFunction();
 
 window.onresize = () => {

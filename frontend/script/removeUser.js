@@ -14,7 +14,13 @@ const removeUser = async (ev) => {
   });
   const response = await request.json();
   responseCard(response);
-  redirectToUsers();
+  const userAuth = JSON.parse(localStorage.getItem('auth'));
+  if (userAuth.email === response.data.email) {
+    location.assign('login.html');
+    localStorage.clear();
+  } else {
+    redirectToUsers();
+  }  
 };
 
 export { removeUser };
